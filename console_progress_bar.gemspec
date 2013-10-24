@@ -1,15 +1,15 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'console_progressbar/version'
+require 'console_progress_bar/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "console_progressbar"
-  spec.version       = ConsoleProgressbar::VERSION
-  spec.authors       = ["TODO: Write your name"]
-  spec.email         = ["TODO: Write your email address"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.name          = "console_progress_bar"
+  spec.version       = ConsoleProgressBar::VERSION
+  spec.authors       = ["Mehmet Emin İNAÇ"]
+  spec.email         = ["mehmetemininac@gmail.com"]
+  spec.description   = %q{useful progress bar gem for console usage}
+  spec.summary       = %q{Progress bar implementation for console scripts which you can show elapsed time and remaining time with animation or progressbar or current percent of total transactions}
   spec.homepage      = ""
   spec.license       = "MIT"
 
