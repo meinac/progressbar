@@ -11,17 +11,17 @@ module ConsoleProgressBar
 
   	def counter(options = {})
   		init_options(options)
-  		@counter ||= ConsoleProgressBar::Counter.new(@total, @with_elapsed_time, @with_remaining_time, @increment_size)
+  		ConsoleProgressBar::Counter.new(@total, @with_elapsed_time, @with_remaining_time, @increment_size)
   	end
 
   	def animator(options = {})
   		init_options(options)
-  		@animator ||= ConsoleProgressBar::Animator.new(@total, @with_elapsed_time, @with_remaining_time, @increment_size)
+  		ConsoleProgressBar::Animator.new(@total, @with_elapsed_time, @with_remaining_time, @increment_size)
   	end
 
   	def bar(options = {})
   		init_options(options)
-  		@bar ||= ConsoleProgressBar::Bar.new(@total, @with_elapsed_time, @with_remaining_time, @increment_size, @width)
+  		ConsoleProgressBar::Bar.new(@total, @with_elapsed_time, @with_remaining_time, @increment_size, @width)
   	end
 
   private
