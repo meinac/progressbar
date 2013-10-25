@@ -27,7 +27,7 @@ module ConsoleProgressBar
 			if @current >= @total
 				finished
 			else
-				@now = (@current * 1.0 / @total * 100).to_i / (100 / @width)
+				@now = (@current * 1.0 / @total * @width).to_i
 				if @recent != @now
 					@recent = @now
 					shift_back(@output_length + @prev_extra_length)
