@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["mehmetemininac@gmail.com"]
   spec.description   = %q{useful progress bar gem for console usage}
   spec.summary       = %q{Progress bar implementation for console scripts which you can show elapsed time and remaining time with animation or progressbar or current percent of total transactions}
-  spec.homepage      = ""
+  spec.homepage      = "http://github.com/mehmetemininac/progressbar"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
