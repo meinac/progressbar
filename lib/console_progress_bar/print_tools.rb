@@ -17,7 +17,7 @@ module ConsoleProgressBar
 					@output += " "
 				end
 				@output_length = @output.length
-				print @output
+				print @output + "\n"
 			end
 			
 	end

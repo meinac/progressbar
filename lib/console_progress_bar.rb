@@ -1,9 +1,9 @@
-require_relative "console_progress_bar/version"
-require_relative "console_progress_bar/print_tools"
-require_relative "console_progress_bar/extras"
-require_relative "console_progress_bar/counter"
-require_relative "console_progress_bar/animator"
-require_relative "console_progress_bar/bar"
+require "console_progress_bar/version"
+require "console_progress_bar/print_tools"
+require "console_progress_bar/extras"
+require "console_progress_bar/counter"
+require "console_progress_bar/animator"
+require "console_progress_bar/bar"
 
 module ConsoleProgressBar
 
