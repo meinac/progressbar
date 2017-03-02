@@ -9,6 +9,18 @@ module ConsoleProgressBar
 
   class ProgressBar
 
+    def self.counter(options = {})
+      new.counter(options)
+    end
+
+    def self.animator(options = {})
+      new.animator(options)
+    end
+
+    def self.bar(options = {})
+      new.bar(options)
+    end
+
   	def counter(options = {})
   		init_options(options)
   		ConsoleProgressBar::Counter.new(@total, @with_elapsed_time, @with_remaining_time, @increment_size)
