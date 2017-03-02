@@ -17,8 +17,8 @@ module ConsoleProgressBar
 			@output_length = 0
 		end
 
-		def increase
-			@current += @increment_size
+		def increase(by = nil)
+			@current += (by || @increment_size)
 			if @current >= @total
 				finished
 			else
